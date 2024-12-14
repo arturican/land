@@ -1,26 +1,64 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Regular.woff2') format("woff2");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/Roboto-Bold.woff2') format("woff2");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
-    --color-dark: #163152;
-    --color-turquoise: #00C6BD;
+  --color-dark: #163152;
+  --color-turquoise: #00c6bd;
 }
 
 body {
-    font-size: 16px;
-    font-weight: 400;
-    font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}
+
+.title-main {
+  font-size: 44px;
+  font-style: italic;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--color-turquoise);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+  text-underline-position: under;
+}
+
+.datetime {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+p {
+  line-height: 24px;
+}
+
+.title-contact {
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.contact-content {
+  text-decoration: none;
+  color: var(--color-dark);
+  line-height: 22px;
+  font-style: normal;
 }
