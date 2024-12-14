@@ -21,7 +21,6 @@
 
 body {
   font-size: 16px;
-  line-height: 24px;
   font-weight: 400;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -32,7 +31,6 @@ body {
   font-size: 44px;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 40px;
 }
 
 .title {
@@ -47,22 +45,18 @@ body {
 
 .datetime {
   font-size: 14px;
-  line-height: 18px;
   text-transform: uppercase;
 }
 
 p {
-  line-height: 24px;
 }
 
 .title-contact {
   font-weight: 700;
-  line-height: 22px;
 }
 
 .contact-content {
   text-decoration: none;
   color: var(--color-dark);
-  line-height: 22px;
   font-style: normal;
 }
