@@ -18,6 +18,7 @@
   --color-dark: #163152;
   --color-white: #fdfdff;
   --color-turquoise: #00c6bd;
+  --color-grey: #8693a4;
 }
 
 body {
@@ -56,10 +57,79 @@ body {
   text-underline-position: under;
 }
 
+.news h2 {
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.news h3 {
+  color: var(--color-dark);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.news h4 {
+  color: var(--color-dark);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.news p {
+  color: var(--color-dark);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
 .blog-article-date {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
+}
+
+blockquote {
+  border-left: 2px solid var(--color-turquoise);
+  padding-left: 20px;
+}
+
+blockquote p {
+  color: var(--color-dark);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+figcaption {
+  color: var(--color-grey);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.author-datetime {
+  color: var(--color-grey);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.news b {
+  color: var(--color-dark);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
 }
 
 .contact-item {
