@@ -66,24 +66,30 @@ body {
   line-height: 34px;
 }
 
-.news h3 {
-  color: var(--color-dark);
+.post h3 {
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: 26px;
 }
 
-.news h4 {
-  color: var(--color-dark);
+.post h4 {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 26px;
 }
 
-.news p {
-  color: var(--color-dark);
+.post ul {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.post ins {
+  text-decoration: none;
+}
+
+.post p {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -96,12 +102,9 @@ body {
   text-transform: uppercase;
 }
 
-blockquote {
+.post blockquote {
   border-left: 2px solid var(--color-turquoise);
   padding-left: 20px;
-}
-
-blockquote p {
   color: var(--color-dark);
   font-size: 26px;
   font-style: normal;
@@ -117,7 +120,15 @@ figcaption {
   line-height: 19px;
 }
 
-.author-datetime {
+.post-meta a {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+.post-meta time {
   color: var(--color-grey);
   font-size: 16px;
   font-style: normal;
