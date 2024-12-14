@@ -25,11 +25,14 @@ body {
   font-weight: 400;
   font-family: Roboto, sans-serif;
   font-style: normal;
+  color: var(--color-dark);
 }
 
 .title-main {
   font-size: 44px;
   font-style: italic;
+  font-weight: 400;
+  margin-bottom: 40px;
 }
 
 .title {
@@ -45,6 +48,7 @@ body {
 .datetime {
   font-size: 14px;
   line-height: 18px;
+  text-transform: uppercase;
 }
 
 p {
