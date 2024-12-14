@@ -44,6 +44,7 @@ body {
   text-transform: uppercase;
 }
 
+.news h2,
 .blog-article h2,
 .contacts h2 {
   font-size: 24px;
