@@ -16,26 +16,38 @@
 
 :root {
   --color-dark: #163152;
+  --color-white: #fdfdff;
   --color-turquoise: #00c6bd;
 }
 
 body {
-  font-size: 16px;
-  font-weight: 400;
   font-family: Roboto, sans-serif;
-  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
   color: var(--color-dark);
+  background-color: var(--color-white);
 }
 
-.title-main {
+.site-navigation-item a {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--color-turquoise);
+  text-decoration: none;
+}
+
+.hero h1 {
   font-size: 44px;
+  line-height: 44px;
   font-style: italic;
-  font-weight: 400;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
-.title {
+.blog-article h2,
+.contacts h2 {
   font-size: 24px;
-  font-weight: 700;
+  line-height: 34px;
   text-decoration: underline;
   text-decoration-color: var(--color-turquoise);
   text-decoration-thickness: 2px;
@@ -43,20 +55,53 @@ body {
   text-underline-position: under;
 }
 
-.datetime {
+.blog-article-date {
   font-size: 14px;
+  line-height: 18px;
   text-transform: uppercase;
 }
 
-p {
+.contact-item {
+  font-size: 16px;
+  line-height: 22px;
 }
 
-.title-contact {
-  font-weight: 700;
+.contact-item h3 {
+  font-size: 16px;
+  line-height: 22px;
 }
 
-.contact-content {
-  text-decoration: none;
-  color: var(--color-dark);
+.contact-item address {
   font-style: normal;
+}
+
+.contact-item a {
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+.main-footer {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.footer-navigation-topics {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer-navigation-topic h2 {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.footer-navigation-item a {
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+.policy a {
+  color: var(--color-dark);
+  text-decoration: none;
 }
