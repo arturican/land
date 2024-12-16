@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Regular.woff2') format('woff2');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Bold.woff2') format('woff2');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -22,6 +22,8 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -187,4 +189,47 @@ figcaption {
 .policy a {
   color: var(--color-dark);
   text-decoration: none;
+}
+
+.page-header {
+  width: 1170px;
+  padding: 20px 55px;
+  margin: 0 auto 40px;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.logo {
+  padding: 0;
+  margin: 0;
+  width: 64px;
+}
+
+.site-navigation {
+  padding: 0;
+  margin: 0 0 0 471px;
+  width: 559px;
+  list-style: none;
+}
+
+.site-navigation a {
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+.signin {
+  margin-left: auto;
+  width: 36px;
+}
+
+.main-content {
+  width: 1170px;
+  padding: 0 55px;
+  margin: 0 auto;
+}
+
+.hero {
+  margin-bottom: 120px;
 }
