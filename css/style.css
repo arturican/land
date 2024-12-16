@@ -278,20 +278,16 @@ figcaption {
   margin-bottom: 55px;
 }
 .gallery {
-  margin: 120px;
+  width: 1170px;
+  margin: 0 auto 120px;
 }
 .gallery-wrapper {
   display: flex;
   align-items: flex-start;
 }
 
-.active-photo {
-  width: 970px;
-  margin-right: 30px;
-}
-
 .gallery-preview {
-  margin: 0;
+  margin: 0 0 0 30px;
   padding: 0;
   width: 170px;
   list-style: none;
