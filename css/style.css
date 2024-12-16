@@ -235,9 +235,9 @@ figcaption {
 }
 
 .blog-article {
-  width: 1170px;
+  width: 1030px;
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 120px;
   justify-content: center;
 }
 
@@ -258,4 +258,32 @@ figcaption {
   width: 400px;
   text-align: center;
   margin-left: 30px;
+}
+
+.news {
+  width: 770px;
+  padding: 0;
+  margin: 0 auto 120px;
+}
+.news h2 {
+  text-align: center;
+}
+
+.news figure {
+  margin: 0 auto;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 auto 120px;
+  width: 1170px;
+}
+
+.contacts-item {
+  width: 390px;
+}
+
+.contacts img {
+  margin-right: auto;
 }
