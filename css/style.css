@@ -281,12 +281,12 @@ figcaption {
   width: 1170px;
   margin: 0 auto 120px;
 }
-.gallery-wrapper {
+.slider {
   display: flex;
   align-items: flex-start;
 }
 
-.gallery-preview {
+.preview-list {
   margin: 0 0 0 30px;
   padding: 0;
   width: 170px;
@@ -294,11 +294,11 @@ figcaption {
 }
 
 
-.preview-item {
+.preview-list li {
   margin-bottom: 30px;
 }
 
-.preview-item:last-child {
+.preview-list li:last-child {
   margin-bottom: 0;
 }
 
