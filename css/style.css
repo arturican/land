@@ -287,3 +287,27 @@ figcaption {
 .contacts img {
   margin-right: auto;
 }
+
+.main-footer {
+  width: 100%
+}
+
+
+.main-footer-item{
+  display: flex;
+  width: 1280px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.footer-navigation-topics {
+  display: flex;
+  width: 870px;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.footer-navigation-topics li {
+  list-style: none;
+}
