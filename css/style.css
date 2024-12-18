@@ -200,6 +200,7 @@ figcaption {
 
 .main-nav {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -209,6 +210,10 @@ figcaption {
 }
 
 .site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
   padding: 0;
   margin: 0 40px 0 0;
   width: 560px;
@@ -225,6 +230,13 @@ figcaption {
 
 .signin {
   width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #00C6BD;
+
 }
 
 .main-content {
