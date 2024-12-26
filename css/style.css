@@ -25,26 +25,81 @@ body {
   margin: 0;
   padding: 0;
   font-family: Roboto, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
   color: var(--color-dark);
   background-color: var(--color-white);
 }
 
+.page-header {
+  width: 1170px;
+  padding: 20px 55px;
+  margin: 0 auto 40px;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding: 0;
+  margin: 0 auto 0 0;
+  width: 64px;
+}
+
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  padding: 0;
+  margin: 0 40px 0 0;
+  width: 559px;
+  list-style: none;
+}
+
 .site-navigation-item a {
+  color: var(--color-dark);
+  text-decoration: none;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
-  color: var(--color-turquoise);
-  text-decoration: none;
+}
+
+
+.signin {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #00C6BD;
+}
+
+
+.main-content {
+  width: 1170px;
+  padding: 0 55px;
+  margin: 0 auto;
+}
+
+.hero {
+  margin-bottom: 120px;
 }
 
 .hero h1 {
-  font-size: 44px;
-  line-height: 60px;
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 0;
+  margin-bottom: 40px;
+  margin-left: 70px;
   font-style: italic;
   font-weight: 400;
-  text-transform: uppercase;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: -0.563px;
 }
 
 .news h2,
@@ -192,73 +247,11 @@ figcaption {
   text-decoration: none;
 }
 
-.page-header {
-  width: 1170px;
-  padding: 20px 55px;
-  margin: 0 auto 40px;
-}
 
-.main-nav {
-  display: flex;
-  align-items: center;
-}
 
-.logo {
-  padding: 0;
-  margin: 0 auto 0 0;
-  width: 64px;
-}
 
-.site-navigation {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  align-items: center;
-  padding: 0;
-  margin: 0 40px 0 0;
-  width: 560px;
-  list-style: none;
-}
 
-.site-navigation-item a {
-  color: var(--color-dark);
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: uppercase;
-}
 
-.signin {
-  width: 36px;
-  height: 36px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  border: 1px solid #00C6BD;
-
-}
-
-.main-content {
-  width: 1170px;
-  padding: 0 55px;
-  margin: 0 auto;
-}
-
-.hero {
-  margin-bottom: 120px;
-}
-
-.hero h1 {
-  margin-top: 0;
-  margin-bottom: 40px;
-  margin-left: 75px;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 44px;
-  line-height: 60px;
-  text-transform: uppercase;
-}
 
 .blog-article {
   width: 1030px;
